@@ -6,19 +6,22 @@
     margin: 0;
     padding: 0;
 }
-
+body
+{
+    
+}
 #navbar
 {
     background: purple;
     display:flex;
     position: fixed;
+    top:0;
     flex-direction: row;
     align-items: center;
     justify-content: start;
     height: 10vh;
     width: 100%;
     font-size: 1.2rem;
-    
     
 }
 #navbar>*
@@ -117,6 +120,11 @@
         position: absolute;
         right:5vw;
         top:-0.6vh;
+    }
+    .wd #navbar
+    {
+        position: fixed;
+        top:0;
     }
     svg
     {
