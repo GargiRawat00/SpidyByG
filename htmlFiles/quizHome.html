@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Home</title>
+    <link rel="stylesheet" href="../cssFiles/quizHome.css">
+     <link rel="stylesheet" href="../cssFiles/navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script>
+        function aclick(n)
+        {
+            //alert(n);
+            localStorage.setItem('quizNum',n);
+            //alert(localStorage.getItem('quizNum'));
+        }
+    </script>
+</head>
+<body>
+    <div class="wd nv">
+        <nav id="navbar">
+            <img src="../images/logo.png" alt="" id="logo">
+            <a href="#" class="hide" id="dbtn" onclick="dropdown()"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#FFFFFF"><path d="M120-280v-80h560v80H120Zm0-160v-80h560v80H120Zm0-160v-80h560v80H120Zm680 320q-17 0-28.5-11.5T760-320q0-17 11.5-28.5T800-360q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280Zm0-160q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440Zm0-160q-17 0-28.5-11.5T760-640q0-17 11.5-28.5T800-680q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600Z"/></svg></a>
+            <a href="../htmlFiles/index.html" >MeetTheDev</a>
+            <a href="../htmlFiles/quizHome.html" id="active" >Quick Quiz</a>
+            <a href="../htmlFiles/about.html">About</a>
+        </nav>
+        </div>
+        <div class="gap"></div>
+    <h1>Choose the Desired Quiz</h1>
+    <p>
+        The term "quiz" originated from the Latin word "quis," meaning "who,"<br> and evolved from practical jokes to become a <br>popular form of entertainment and educational tool.
+    </p>
+    <div class="container">
+        <div class="tile">
+            <a href="../htmlFiles/game.html" onclick="aclick(1)">
+                <h2 class="h2heading">HTML Quiz</h2>
+                <br>
+                <img src="../images/htmlImg.jpg" alt="">
+            </a>
+        </div>
+        <div class="tile" >
+                <a href="../htmlFiles/game.html" onclick="aclick(2)">
+                    <h2 class="h2heading">CSS Quiz</h2>
+                    <br>
+                    <img src="../images/cssImg.jpg" alt="">
+                </a>
+        </div>
+        <div class="tile">
+            <a onclick="aclick(3)" href="../htmlFiles/game.html">
+                <h2 class="h2heading">Javascript Quiz</h2>
+                <br>
+                <img src="../images/jsImg.jpg" alt="">
+            </a>
+        </div>
+        <div class="tile">
+            <a href="../htmlFiles/game3.html">
+                <h2 class="h2heading">Harry Potter Quiz</h2>
+                <br>
+                <img src="../images/hpImg.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <script src="../jsFiles/navbar.js"></script>
+</body>
+</html>

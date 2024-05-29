@@ -1,0 +1,82 @@
+[
+    {
+        "question":"What does the typeof operator return for null?",
+        "choice1":"\"true\"",
+        "choice2":"\"null\"",
+        "choice3":"\"undefined\"",
+        "choice4":"\"object\"",
+        "answer":4
+    },
+    {
+        "question":"What is the result of 5 + '5' in JavaScript?",
+        "choice1":"10",
+        "choice2":"\"55\"",
+        "choice3":"55",
+        "choice4":"\"10\"",
+        "answer":2
+    },
+    {
+        "question":"Which function is used to schedule a function to run after a specified number of milliseconds in JavaScript??",
+        "choice1":"sleep()",
+        "choice2":"setInterval()",
+        "choice3":"wait()",
+        "choice4":"setTimeout()",
+        "answer":4
+    },
+    {
+        "question":"What does the === operator do in JavaScript?",
+        "choice1":"Checks if two values are equal in value and type",
+        "choice2":"Assigns a value to a variable",
+        "choice3":"Checks if two values are equal in value but not necessarily in type",
+        "choice4":"Checks if two values are not equal in value and type",
+        "answer":1
+    },
+    {
+        "question":"What is the output of typeof NaN?",
+        "choice1":"undefined",
+        "choice2":"NaN",
+        "choice3":"number",
+        "choice4":"object",
+        "answer":3
+    },
+    {
+        "question":"What is the purpose of the JSON.stringify() function in JavaScript?",
+        "choice1":"Converts a JavaScript object or value to a JSON string",
+        "choice2":"Parses a JSON string and returns a JavaScript object or value",
+        "choice3":"Modifies a JavaScript object in place",
+        "choice4":"None of the above",
+        "answer":1
+    },
+    {
+        "question":"What is the difference between let and var in JavaScript?",
+        "choice1":"let is function-scoped while var is block-scoped",
+        "choice2":"let is block-scoped while var is function-scoped",
+        "choice3":" Both let and var are block-scoped",
+        "choice4":" Both let and var are function-scoped",
+        "answer":2
+    },
+    {
+        "question":"Consider the following code:\nconst obj = { a: 1 };\nobj.a = 2;\nconsole.log(obj.a);",
+        "choice1":"1",
+        "choice2":"type error",
+        "choice3":"2",
+        "choice4":"reference error",
+        "answer":3
+    },
+    {
+        "question":"What does the Math.random() function in JavaScript return?",
+        "choice1":" A random integer between 1 and 10",
+        "choice2":"A random number between 0 and 100",
+        "choice3":"A random integer between 0 and 100",
+        "choice4":"A random number between 0 and 1",
+        "answer":4
+    },
+    {
+        "question":"Output of: console.log(typeof []);",
+        "choice1":"array",
+        "choice2":"object",
+        "choice3":"undefined",
+        "choice4":"array-like object",
+        "answer":2
+    }
+]

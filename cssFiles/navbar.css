@@ -1,0 +1,125 @@
+
+
+
+*{
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar
+{
+    background: purple;
+    display:flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    height: 10vh;
+    width: 100%;
+    font-size: 1.2rem;
+    
+    
+}
+#navbar>*
+{
+    margin-right: 2rem;
+    text-decoration: none;
+    color:white;
+    background: purple;
+}
+#navbar a
+{
+    background: purple;
+}
+#navbar img
+{
+    height: 8vh;
+    width: 8vh;
+    padding: 0.25rem;
+}
+
+#navbar #active
+{
+    display: inline;
+    padding:0.3rem;
+    background: white;
+    color: purple;
+    border:0.1rem solid purple;
+    border-radius: 0.4rem;
+}
+.hide
+{
+    display:none;
+}
+
+@media(max-width:900px)
+{
+    .dd #navbar
+    {
+        display:flex;
+        flex-direction:column;
+        justify-content: start;
+        align-items: center;
+        padding-top:8vh;
+        height:100%;
+        width:100%;
+    }  
+    .dd #navbar>*
+    {
+        padding-bottom:8vh;
+    } 
+    
+    .dd #active
+    {
+        background: none!important;
+        color: aquamarine !important;
+        font-size: 1.5rem;
+        margin-bottom:5vh;
+    }
+    .dd #navbar a:hover
+    {
+        color: aquamarine !important;
+        font-size: 1.5rem;
+    }
+    .dd #logo
+    {
+        align-self: flex-start;
+        margin:0;
+        padding:0;
+        height: 12vh !important;
+        width: 12vh !important;
+        margin-top: -5vh;
+        margin-left: 5vh;
+        /*margin-left: -0vw;*/
+    }
+    .wd{
+        margin-top: 0;
+        padding-bottom: 3rem;
+    }
+    .wd a
+    {
+        display: none!important;
+    }
+    
+    .dd #dbtn {
+        display: flex;
+        position: absolute;
+        top:8vh;
+        right: 5vw;
+        
+    }
+    .wd #dbtn
+    {
+        display:flex!important;
+        /*position: relative;
+        right:-50vw;*/
+        position: absolute;
+        right:5vw;
+        top:-0.6vh;
+    }
+    svg
+    {
+        background: purple;
+    }
+}

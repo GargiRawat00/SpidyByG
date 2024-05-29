@@ -1,0 +1,13 @@
+
+#titleimage
+{
+    height:50vh;
+    width:50vh;
+    margin-bottom:1.6rem;
+    border:0.2rem solid purple;
+    box-shadow: 0.4rem 0.4rem 0.2rem 0.3rem rgba(0,0,0,0.3);
+}
+.container
+{
+    padding-top: 2.5rem;
+}

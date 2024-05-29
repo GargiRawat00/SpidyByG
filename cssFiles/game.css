@@ -1,0 +1,74 @@
+
+
+.container
+{
+    padding: 1.6rem;
+}
+.correct
+{
+    background: green;
+    color:white;
+}
+.incorrect
+{
+    background: maroon;
+    color: white;
+}
+
+#hud
+{
+    display:flex;
+    justify-content: space-between;
+    padding:1.6rem
+}
+.hud-prefix
+{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.hud-main-text
+{
+    text-align: center;
+}
+#progress-bar
+{
+    display: grid;
+    grid:0.6rem/ 0fr 12fr;
+    border: 0.2rem solid purple;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+.progress-bar-full
+{
+    background-color: purple;
+}
+#end
+{
+    display: flex;
+    position: absolute;
+    top:8vh;
+    right:3vw;
+    justify-content: flex-end;
+    width:100%;
+}
+#end button
+{
+    height:6vh;
+    width:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C41E3A;
+    color: white;
+    border: none;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+#end button:hover
+{
+    cursor: pointer;
+    height:8vh;
+    width:19vh;
+
+}

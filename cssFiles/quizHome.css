@@ -1,0 +1,67 @@
+
+/*.navbbar
+{
+    background-color: purple;
+    color: white !important;
+}*/
+*
+{
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+   
+}
+.tile
+{
+    height: 40vh;
+    width: auto;
+    border:0.1rem solid purple;
+    box-shadow: 0.4rem 0.4rem 0.2rem 0.3rem rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2px;
+}
+.tile a
+{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: purple;
+}
+
+.tile img
+{
+    height:30vh;
+    width:auto;
+}
+p
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color:purple;
+    font-style: italic;
+    margin-top: 1.4rem;;
+}
+h1{
+    color:purple;
+    text-align: center;
+    text-decoration: underline;
+    /*margin-top:1.4rem;*/
+}
+.gap
+{
+    padding-top: 12vh;
+}

@@ -1,0 +1,58 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.container
+{
+    height: 100vh;
+    width:100%;
+    background-color: gainsboro;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+form h3
+{
+    color: purple;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+form input, form textarea
+{
+    background: gainsboro;
+    padding: 1rem;
+    border:0;
+    outline:none;
+    font-size: 0.8rem;
+    margin: 10px 0;
+    width:14rem;
+}
+
+form button{
+    background: purple;
+    border-radius:10px;
+    color:white;
+    padding:0.5rem;
+    width:8rem;
+    margin:1rem;
+    outline: none;
+    border: 0;
+}
+form button:hover
+{
+    cursor: pointer;
+    background: blue;
+}

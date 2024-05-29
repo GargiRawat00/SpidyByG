@@ -1,0 +1,58 @@
+
+[
+    {
+        "question":"How much do you love your pets on a scale of 1-100?",
+        "choice1":"1-25",
+        "choice2":"25-50",
+        "choice3":"50-75",
+        "choice4":"75-100",
+        "answer1":["Voldemort","Ron"],
+        "answer2":["Malfoy","Snape"],
+        "answer3":["Hermione","Snape"],
+        "answer4":["Hagrid"]
+    },
+    {
+        "question":"You have a single pencil and your friend forgot to bring Pencil to take notes in Snape's class",
+        "choice1":"You will break the pencil into two halves",
+        "choice2":"You will use a spell to make new pencil",
+        "choice3":"You will give him yours and get scolded instead",
+        "choice4":"You will ignore him to teach him a lesson",
+        "answer1":["Harry","Ron"],
+        "answer2":["Hermione"],
+        "answer3":["Hagrid","Snape"],
+        "answer4":["Malfoy","Voldemort"]
+    },
+    {
+        "question":"What suits you the best",
+        "choice1":"Gentle, Kind and Compassionate",
+        "choice2":"Leader, Determined and Powerful",
+        "choice3":"Brilliant,Ambitious and Loyal",
+        "choice4":"Family, Fun and Humour",
+        "answer1":["Hagrid"],
+        "answer2":["Harry","Voldemort"],
+        "answer3":["Hermione","Snape"],
+        "answer4":["Ron","Malfoy"]
+    },
+    {
+        "question":"Do you feel alone sometimes?",
+        "choice1":"I have got better things to do",
+        "choice2":"Yes but I remain hopeful for the future",
+        "choice3":"Yes and?",
+        "choice4":"You will never know about it",
+        "answer1":["Hermione"],
+        "answer2":["Harry"],
+        "answer3":["Malfoy"],
+        "answer4":["Hagrid","Snape","Voldemort"]
+    },
+    {
+        "question":"You can keep one of these, what would it be",
+        "choice1":"Elder's Wand",
+        "choice2":"Peace",
+        "choice3":"The Time-Turner",
+        "choice4":"Buckbeak",
+        "answer1":["Voldemort","Ron","Malfoy"],
+        "answer2":["Harry"],
+        "answer3":["Hermione"],
+        "answer4":["Snape"]
+    }
+]

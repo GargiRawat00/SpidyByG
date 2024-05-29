@@ -1,0 +1,137 @@
+*
+{
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#devPhoto
+{
+    height:40vh;
+    width:40vh;
+}
+
+.container
+{
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+#intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2,h3{
+    color:purple;
+}
+li,p{
+    color:purple;
+    font-size: 1.1rem;
+}
+.muggle>*
+{
+    display: inline;
+}
+
+.rh
+{
+    text-decoration: underline;
+}
+.divider
+{
+    height: 0.1rem;
+    width:100%;
+    background:purple;
+    margin-bottom: 1rem;
+    margin-top: 1rem;;
+}
+
+.ele h5
+{
+    /*height:6vh;
+    width:8vh;*/
+    padding:0.2rem;
+    color: white;
+    border-radius: 0.5rem;
+    background: purple;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.cont
+{
+    display:flex;
+}
+
+.skills
+{
+    margin: 1rem;
+    margin-top: 1.5rem;
+}
+.iskills
+{
+    margin-top:1rem;
+    margin-left:0.5rem;
+}
+
+.skills h3
+{
+    font-size: 1.3rem;
+}
+.ocont
+{
+    margin-left:0.5rem;
+}
+.tbl
+{
+    border-collapse: collapse;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0.4rem 0.4rem 0.2rem 0.2rem rgba(0,0,0,0.3);
+}
+#th{
+    text-align: left;
+    color:white;
+}
+#th th
+{
+    color: white;
+    background: purple;
+    padding: 0.4rem;
+    font-weight: bold;
+}
+td{
+    padding: 0.4rem;
+    background: white;
+    color:purple;
+}
+tbody tr{
+    border:1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) td
+{
+    background: #f2f2f2;
+}
+li{
+    margin-top: 0.5rem;
+    margin-left:1rem;
+}
+.hide
+{
+    display:none;
+}
+
+strong{
+    color: purple;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "question":"What does the CSS z-index property do?",
+        "choice1":"Sets the opacity of an element",
+        "choice2":"Specifies the stack order of an element",
+        "choice3":"Determines the rotation of an element",
+        "choice4":"Sets the size of an element",
+        "answer":2
+    },
+    {
+        "question":"Which CSS property is used to create a shadow effect around an element?",
+        "choice1":"box-shadow",
+        "choice2":"text-shadow",
+        "choice3":"shadow-effect",
+        "choice4":"element-shadow",
+        "answer":1
+    },
+    {
+        "question":"Which of the following CSS selectors has the highest specificity?",
+        "choice1":"Class Selectors",
+        "choice2":"ID Selecter",
+        "choice3":"Inline Styles",
+        "choice4":"Universal Styles",
+        "answer":3
+    },
+    {
+        "question":"Which method is used to add a new element to the end of a parent element in the DOM?",
+        "choice1":"add()",
+        "choice2":"insertBefore()",
+        "choice3":"createElement",
+        "choice4":"appendChild()",
+        "answer":4
+    },
+    {
+        "question":"What does the document.getElementById() method in JavaScript return if no element with the specified ID is found?",
+        "choice1":"false",
+        "choice2":"undefined",
+        "choice3":"null",
+        "choice4":"NaN",
+        "answer":3
+    },
+    {
+        "question":"Which CSS property in Flexbox is used to specify the alignment of flex items when they do not use all the available space on the cross-axis?",
+        "choice1":"flex-direction",
+        "choice2":"align-items",
+        "choice3":"justify-content",
+        "choice4":"align-content",
+        "answer":4
+    },
+    {
+        "question":"In Flexbox, which property is used to specify how the flex items are aligned along the cross-axis of the flex container?",
+        "choice1":"flex-direction",
+        "choice2":"align-items",
+        "choice3":"justify-content",
+        "choice4":"align-content",
+        "answer":2
+    },
+    {
+        "question":"In CSS Grid, which property is used to specify the size of grid tracks (rows and columns)?",
+        "choice1":"grid-template",
+        "choice2":"grid-gap",
+        "choice3":"grid-template-rows and grid-template-columns",
+        "choice4":"grid-auto-rows and grid-auto-columns",
+        "answer":3
+    },
+    {
+        "question":"What is the key difference between CSS Grid and Flexbox?",
+        "choice1":"Flexbox is one-dimensional while Grid is two-dimensional.",
+        "choice2":"Grid is one-dimensional while Flexbox is two-dimensional.",
+        "choice3":"Grid only supports rows, while Flexbox only supports columns.",
+        "choice4":"Flexbox only supports rows, while Grid only supports columns.",
+        "answer":1
+    },
+    {
+        "question":"Which class in Bootstrap is used to create a responsive, mobile-first grid system?",
+        "choice1":"grid",
+        "choice2":"row",
+        "choice3":"container",
+        "choice4":"col",
+        "answer":4
+    }
+]

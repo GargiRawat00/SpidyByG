@@ -1,0 +1,82 @@
+[
+    {
+        "question":"Full form of HTML",
+        "choice1":"Hypertext Markup Languange",
+        "choice2":"Hyperlinks and Text Markup Language",
+        "choice3":"Hypertext Transfer Markup Language",
+        "choice4":"Hypertext Transfer Markup Language",
+        "answer":1
+    },
+    {
+        "question":"Which tag is used to define the main content of an HTML document?",
+        "choice1":"<content>",
+        "choice2":"<main>",
+        "choice3":"<body>",
+        "choice4":"<section>",
+        "answer":2
+    },
+    {
+        "question":"Which tag is used to create a line break in HTML?",
+        "choice1":"<lb>",
+        "choice2":"<br>",
+        "choice3":"<line>",
+        "choice4":"<break>",
+        "answer":2
+    },
+    {
+        "question":"Which tag is used to create a hyperlink in HTML?",
+        "choice1":"<link>",
+        "choice2":"<href>",
+        "choice3":"<a>",
+        "choice4":"<hyperlink>",
+        "answer":3
+    },
+    {
+        "question":"Which tag is used to define the footer of an HTML document?",
+        "choice1":"<foot>",
+        "choice2":"<footer>",
+        "choice3":"<bottom>",
+        "choice4":"<end>",
+        "answer":2
+    },
+    {
+        "question":"Which attribute is used to specify the width of a table border in HTML?",
+        "choice1":"border-width",
+        "choice2":"table-border",
+        "choice3":"border",
+        "choice4":"border-size",
+        "answer":3
+    },
+    {
+        "question":"Which tag is used to define a division in HTML?",
+        "choice1":"<div>",
+        "choice2":"<section>",
+        "choice3":"<block>",
+        "choice4":"<part>",
+        "answer":1
+    },
+    {
+        "question":"Which attribute is used to specify an alternate text for an image in HTML?",
+        "choice1":"alt",
+        "choice2":"title",
+        "choice3":"description",
+        "choice4":"imgalt",
+        "answer":1
+    },
+    {
+        "question":"Which HTML tag is used to embed external content, such as a video or audio file, into a webpage?",
+        "choice1":"<external>",
+        "choice2":"<embed>",
+        "choice3":"<media>",
+        "choice4":"<external-content>",
+        "answer":2
+    },
+    {
+        "question":"Which HTML5 feature is used to store data on the client-side and can persist even after the browser is closed?",
+        "choice1":"localStorage",
+        "choice2":"sessionStore",
+        "choice3":"cookieStorage",
+        "choice4":"browserStorage",
+        "answer":1
+    }
+]
