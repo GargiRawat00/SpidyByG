@@ -6,10 +6,7 @@
     margin: 0;
     padding: 0;
 }
-body
-{
-    
-}
+
 #navbar
 {
     background: purple;
@@ -99,6 +96,8 @@ body
     .wd{
         margin-top: 0;
         padding-bottom: 3rem;
+        position: fixed;
+        top:0;
     }
     .wd a
     {
@@ -117,14 +116,18 @@ body
         display:flex!important;
         /*position: relative;
         right:-50vw;*/
+        align-items: flex-end;
         position: absolute;
         right:5vw;
-        top:-0.6vh;
+        /*top:-0.6vh;*/
+        padding: 0.25rem;
+        padding-bottom: 0.1rem;
     }
     .wd #navbar
     {
         position: fixed;
         top:0;
+        align-items: flex-end;
     }
     svg
     {

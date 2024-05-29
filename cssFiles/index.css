@@ -95,8 +95,9 @@ li,p{
 }
 .tbl
 {
+    border:0.25rem;
     border-collapse: collapse;
-    min-width: 400px;
+    /*min-width: 400px;*/
     border-radius: 5px 5px 0 0;
     box-shadow: 0.4rem 0.4rem 0.2rem 0.2rem rgba(0,0,0,0.3);
 }
